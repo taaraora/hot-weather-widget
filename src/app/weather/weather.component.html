@@ -1,0 +1,8 @@
+<div class="element">
+  <app-resorts-list [currentResorts]="resorts" (selectedResortEmitter)="setCurrentResort($event)"></app-resorts-list>
+  <div class="element-right">
+    <app-temperature [currentWeather]="currentResort.weather"></app-temperature>
+    <app-followers [currentSocialInfo]="currentResort.socialInfo"></app-followers>
+  </div>
+  <div class="clear"></div>
+</div>
