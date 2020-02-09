@@ -26,9 +26,9 @@ export class WeatherComponent {
     let mockResort: IResort = {
       address: 'Sed perspiciatis\nEt harum quidem',
       phone: 1285968685,
-      leftImgPreview: '../assets/images/r1.jpg',
-      rightImgPreview: '../assets/images/res.jpg',
-      img: '../assets/images/1.jpg',
+      leftImgPreview: 'assets/images/r1.jpg',
+      rightImgPreview: 'assets/images/res.jpg',
+      img: 'assets/images/1.jpg',
       type: 'seals',
       weather: {
         title: '',
@@ -38,7 +38,7 @@ export class WeatherComponent {
       },
       socialInfo: {
         title: '',
-        img: '../assets/images/b1.jpg',
+        img: 'assets/images/b1.jpg',
         followers: 123,
         following: 444,
       },
